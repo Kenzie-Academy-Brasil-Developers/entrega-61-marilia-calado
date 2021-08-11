@@ -1,94 +1,143 @@
+//Retornar os números de 1 a 20.
+
 function oneThroughTwenty() {
+  
+  const contagemDeUmAVinte = [];
+
+  for (let i = 1; i <= 20; i++) {
+    contagemDeUmAVinte.push(i);
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+} 
+  console.log(contagemDeUmAVinte)
+  return contagemDeUmAVinte;
 }
 
-//call function oneThroughTwenty
+oneThroughTwenty();
+
+//Retornar os números pares de 1 a 20.
 
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
   
-}
+  const paresAteVinte = [];
+  
+  for (let i=1; i <= 10; i++) {
+    paresAteVinte.push(i*2)
+  }
+  console.log(paresAteVinte)
+  return paresAteVinte;
+}  
 
-//call function evensToTwenty
+evensToTwenty();
+
+//Retornar os números ímpares de 1 a 20.
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  const imparesAteVinte = [];
+  
+  for (let i=1; i <= 10; i++) {
+    imparesAteVinte.push(i*2-1)
+  }
+  console.log(imparesAteVinte)
+  return imparesAteVinte;
    
 }
 
-//call function oddsToTwenty
+oddsToTwenty();
+
+//Retornar os múltiplos de 5 até 100. 
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  const multiplosDeCincoAteCem = [];
+  
+  for (let i=1; i <= 20; i++) {
+    multiplosDeCincoAteCem.push(i*5)
+  }
+  console.log(multiplosDeCincoAteCem)
+  return multiplosDeCincoAteCem;
 }
 
-//call function multiplesOfFive
+multiplesOfFive();
+
+//Retornar todos os números até 100 que forem quadrados perfeitos
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  const quadradosPerfeitosAteCem = [];
+  
+  for (let i=1; i <= 10; i++) {
+    quadradosPerfeitosAteCem.push(i*i)
+  }
+  console.log(quadradosPerfeitosAteCem)
+  return quadradosPerfeitosAteCem;
 }
+squareNumbers();
 
-//call function squareNumbers
+// Retornar todos os números contando de trás para frente de 20 até 1.
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  const contagemRegressiva = [];
+  
+  for (let i=20; i >= 1; i--) {
+    contagemRegressiva.push(i)
+  }
+  console.log(contagemRegressiva)
+  return contagemRegressiva;
 }
+countingBackwards();
 
-//call function countingBackwards
+//Retornar os números pares de 20 até 1.
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  const contagemRegressivaDosPares = [];
+  
+  for (let i=10; i >= 1; i--) {
+    contagemRegressivaDosPares.push(i*2)
+  }
+  console.log(contagemRegressivaDosPares)
+  return contagemRegressivaDosPares;
 }
+evenNumbersBackwards();
 
-//call function evenNumbersBackwards
+//Retornar os números ímpares de 20 até 1.
 
 function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  
+  const contagemRegressivaDosImpares = [];
+  
+  for (let i=10; i >= 1; i--) {
+    contagemRegressivaDosImpares.push(i*2-1)
+  }
+  console.log(contagemRegressivaDosImpares)
+  return contagemRegressivaDosImpares;
 }
+oddNumbersBackwards();
 
-//call function oddNumbersBackwards
-
+//Retornar os múltiplos de 5 contando de trás para frente a partir de 100.
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ const regressivaDosMultiplosDeCinco = [];
+  
+  for (let i=20; i >= 1; i--) {
+    regressivaDosMultiplosDeCinco.push(i*5)
+  }
+  console.log(regressivaDosMultiplosDeCinco)
+  return regressivaDosMultiplosDeCinco;
 }
+multiplesOfFiveBackwards();
 
-//call function multiplesOfFiveBackwards
+//Retornar os quadrados perfeitos contando de trás para frente a partir de 100.
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  const regressivaDosQuadradosPerfeitos = [];
+  
+  for (let i=10; i >= 1; i--) {
+    regressivaDosQuadradosPerfeitos.push(i*i)
+  }
+  console.log(regressivaDosQuadradosPerfeitos)
+  return regressivaDosQuadradosPerfeitos;
 }
-
-//call function squareNumbersBackwards
+squareNumbersBackwards();
